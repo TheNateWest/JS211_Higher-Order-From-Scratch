@@ -1,8 +1,4 @@
-/**
- * Map takes each element from the array, does something to it, and returns a new array
- * 
- */
-
+// .map *************
 
 const myMap = (array, callback) => {
 
@@ -24,8 +20,19 @@ const myArray = [6, 12, 24, 48];
 
 console.log(myMap(myArray, double))
 
+// .reduce ***********
 
-// building array.reduce from scratch
+const foodPrices = [
+    {name: 'Steak', price: 20.00},
+    {name: 'Lobster', price: 27.00},
+    {name: 'Salad', price: 10.00},
+    {name: 'Chocolate Cake', price: 7.00},
+]
+
+let totalPrice = 
+
+
+
 
 
 
